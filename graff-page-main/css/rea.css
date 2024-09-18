@@ -1,0 +1,92 @@
+@font-face{
+    
+    font-family: "aAnotherTag.ttf";
+    src: url(/zzzzzz/Multimedia/tipografia/aAnotherTag.ttf);
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+
+font-family: "aAnotherTag.ttf";
+font-weight: bold;
+font-style: bold;
+font-size: 3.0rem;
+border: darkslategrey;
+border-style: inset;
+border-radius: 50cm;
+
+}
+
+body{
+
+    background-color: darkgray;
+    
+
+}
+
+
+
+
+ul{
+
+font-family: Arial, Helvetica, sans-serif;
+border: darkslateblue;
+border-style: inset;
+
+}
+
+h2{
+
+font-family: "aAnotherTag.ttf";
+border: black;
+border-style: dashed solid;
+font-size: 3.0rem;
+
+}
+
+.titulos{
+    font-family: "aAnotherTag.ttf";
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(10px);
+
+}
+
+h3{
+    font-family: "aAnotherTag.ttf";
+    border-style: dashed solid;
+    border: black;
+    font-size: 3.0rem;
+
+}
+
+table{
+    border-style: dashed solid;
+    border: black;
+    font-size: 3.0rem;
+    
+}
+
+td{
+    font-family: "aAnotherTag.ttf";
+    font-size: 3.0rem;
+}
+
+img{
+    align-items: center;
+}
