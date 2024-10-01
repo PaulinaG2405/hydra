@@ -3,117 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index-css/style.css">
+    <link rel="stylesheet" href="./assets/index-css/tablet.css" media="(max-width: 850px)">
+    <link rel="stylesheet" href="./assets/index-css/celular.css" media="(max-width: 550px)">
     <title>HYDRA</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-logo"></div>
-        <div>
-            <h1>HYDRA</h1>
-        </div>
-        <div class="main-nav">
-            <nav>
-            <ul>Plantillas</ul>
-            <ul>Planes</ul>
-            <ul>Contactenos</ul>
-            <ul>Iniciar sesion</ul>
-            </nav>
-        </div>
+    <header>
+        <div class="logo">Mi Logo</div>
+        <nav>
+            <input type="checkbox" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+            <ul class="menu">
+                <li><a href="#">Plantillas</a></li>
+                <li><a href="#">Planes</a></li>
+                <li><a href="#">Contactenos</a></li>
+                <li><a href="#">Iniciar sesion</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-  
-        <div>
-            <p>En HYDRA buscamos ayudar a emprendedores y empresas pequeñas que 
-                no estan versadas en los temas de la programación a crear el sitio web 
-                de su negocio de una manera facil y sencilla, para ampliar su clientela o 
-                cualquiera que sean sus necesidades.
+        <div class="contenedor">
+            <img id="img" src="./assets/multimedia/destop-prueba.jpeg" alt="Descripción de la imagen">
+            <p class="texto">
+                En HYDRA, ayudamos a emprendedores y pequeñas empresas a crear sitios web impresionantes 
+                sin necesidad de conocimientos avanzados en programación.
             </p>
         </div>
-
-        <section class="plantillas">
-            <img src="#" alt="">
-    
-            <div class="plantillas-content">
-                <h2>Plantillas más populares</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quaerat ut sit reprehenderit consequatur obcaecati dolorum 
-                    deleniti culpa sapiente illo, dolorem tempore quae voluptates
-                    eveniet aperiam quod nam laudantium rem facilis!
-                </p>
-    
-                <div class="plantillas-group">
-                    <div class="plantilla-1">
-                        <img src="#" alt="">
-                        <h3>Cafe lorem</h3>
-                        <a href="../hydra/plantillas/dinamicas/Cafeterias/café-ElDicho/index.html">Plantilla 1</a>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Eos, in optio ducimus illo minima est doloremque cumque 
-                            tempora harum, exercitationem ratione quas. Libero officia 
-                            illum molestias iusto voluptatibus ducimus aliquid.
-                        </p>
-                    </div>
-                    <div class="plantilla-1">
-                        <img src="#" alt="">
-                        <h3>lorem</h3>
-                        <a href="">Plantilla 2</a>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Eos, in optio ducimus illo minima est doloremque cumque 
-                            tempora harum, exercitationem ratione quas. Libero officia 
-                            illum molestias iusto voluptatibus ducimus aliquid.
-                        </p>
-                    </div>
-                    <div class="plantilla-1">
-                        <img src="#" alt="">
-                        <h3>lorem</h3>
-                        <a href="">Plantilla 3</a>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Eos, in optio ducimus illo minima est doloremque cumque 
-                            tempora harum, exercitationem ratione quas. Libero officia 
-                            illum molestias iusto voluptatibus ducimus aliquid.
-                        </p>
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Informacion</a>
-                
-    
-            </div>
-        </section>
+        <aside class="populares">
+                         <h2>Plantillas más populares</h2>
+                    <p>
+                        En BikeShop, nos apasiona el ciclismo y queremos compartir esa pasión contigo.
+                        Ya sea que busques una bicicleta de montaña resistente, una bicicleta de carretera 
+                        aerodinámica o una bicicleta urbana elegante, ¡estás en el lugar correcto!
+                    </p>
+                 <section class="contenedor-card">
+                    
+                        <article class="card">
+                            <img src="/assets/multimedia/plantilla.png" alt="" width="100%">
+                            <h3><a href="#">Cafe lorem</a></h3>
+                            <div class="contenido">
+                                <p>
+                                    Si prefieres el asfalto, nuestras bicicletas de carretera te llevarán 
+                                    a velocidades increíbles. Diseñadas para la eficiencia y la velocidad, estas bicicletas son ideales 
+                                    para los amantes de las rutas largas. 
+                                </p>
+                            </div>
+                        </article>
+                 
+                        <article class="card">
+                            <img src="/assets/multimedia/plantilla1.jpeg" alt="" width="100%">
+                            <h3><a href="#">titulo de plantilla</a></h3>
+                            <p>
+                               Si prefieres el asfalto, nuestras bicicletas de carretera te llevarán 
+                               a velocidades increíbles. Diseñadas para la eficiencia y la velocidad, estas bicicletas son ideales 
+                               para los amantes de las rutas largas. 
+                            </p>
+                        </article>
+                   
+                        <article class="card">
+                            <img src="/assets/multimedia/plantilla2.jpeg" alt="" width="100%">
+                            <h3><a href="#">titulo de plantilla</a></h3>
+                            <p>
+                                Si prefieres el asfalto, nuestras bicicletas de carretera te llevarán 
+                                a velocidades increíbles. Diseñadas para la eficiencia y la velocidad, estas bicicletas son ideales 
+                                para los amantes de las rutas largas. 
+                            </p>
+                        </article> 
+                 </section>
+        </aside>
     </main>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="link">
-                <h3>Yulieth Paulina Guzmán</h3>
-                <ul>
-                    <li class="a"><a href="#">yupaguzmante@cesde.net</a></li>
-                    <li class="a"><a href="https://github.com/PaulinaG2405">Git hub</a></li>
-                </ul>
+    <footer>
+        <section class="contacto">
+            <h3>Yulieth Guzmán:</h3>
+            <article class="redes">
+                <p class="gmail"><a href="yupaguzmante@cesde.net"><img src="/assets/multimedia/logo-Gmail-1.png" alt="" width="60"></a></p>
+                <p class="github"><a href="https://github.com/PaulinaG2405"><img src="/assets/multimedia/github.png" alt="" width="50"></a></p>
+            </article>
+        </section>
+        <section class="contacto">
+            <h3>Luis Meneses: </h3>
+            <article class="redes">
+                <p class="gmail"><a href="luis.0495@hotmail.com"><img src="/assets/multimedia/logo-Gmail-1.png" alt="" width="60"></a></p>
+                <p class="github"><a href="https://github.com/Luismeneses12"><img src="/assets/multimedia/github.png" alt="" width="50"></a></p>
+            </article>
+        </section>
+        <section class="contacto">
+            <h3>Camilo Rossi:</h3>
+            <article class="redes">
+                <p class="gmail"><a href="rlliiirollooo@gmail.com"><img src="/assets/multimedia/logo-Gmail-1.png" alt="" width="60"></a></p>
+                <p class="github"><a href="https://github.com/Rey-R06"><img src="/assets/multimedia/github.png" alt="" width="50"></a></p>
+            </article>
+        </section>
+        <section class="contacto">
+            <h3>Jerónimo Zapata:</h3>
+            <article class="redes">
+                <p class="gmail"><a href="jeronimozg11@gmail.com"><img src="/assets/multimedia/logo-Gmail-1.png" alt="" width="60"></a></p>
+                <p class="github"><a href="https://github.com/ketaboi619"><img src="/assets/multimedia/github.png" alt="" width="50"></a></p>
+            </article>
+        </section>
 
-            </div>
-            <div class="link">
-                <h3>Luis Meneses </h3>
-                <ul>
-                    <li class="a"><a href="#">luis.0495@hotmail.com</a></li>
-                    <li class="a"><a href="https://github.com/Luismeneses12">Git hub</a></li>
-                </ul>
-
-            </div>
-            <div class="link">
-                <h3>Camilo Rossi</h3>
-                <ul>
-                    <li class="a"><a href="#">rlliiirollooo@gmail.com</a></li>
-                    <li class="a"><a href="https://github.com/Rey-R06">Git hub</a></li>
-                </ul>
-            </div>
-            <div class="link">
-                <h3>Jerónimo Zapata</h3>
-                <ul>
-                    <li class="a"><a href="#">jeronimozg11@gmail.com</a></li>
-                    <li class="a"><a href="https://github.com/ketaboi619">Git hub</a></li>
-                </ul>
-            </div>
-        </div>
     </footer>
     
+    <script src="/assets/main.js"></script>
 </body>
 </html>

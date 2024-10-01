@@ -1,0 +1,43 @@
+.menu {
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.menu li {
+    text-align: center;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+}
+
+.menu a{
+    padding: 0;
+}
+.menu-icon {
+    display: block;
+}
+
+.menu-toggle:checked + .menu-icon + .menu {
+    background: black;
+    display: flex;
+}
+.texto {
+    font-size: 2rem;
+}
+
+.contenedor-card{
+    justify-content:start;
+}
+
+footer .redes{
+    gap: 0;
+}
+
+
+footer .contacto{
+    margin: 0 10px;
+}

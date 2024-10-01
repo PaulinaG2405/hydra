@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff81;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: cornflowerblue;
+    height: 100px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav {
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: #575757;
+}
+nav .menu-toggle{
+    opacity: 0;
+    visibility:visible;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: -2px;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.contenedor img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 90%; 
+}
+
+.populares h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.populares p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.contenedor-card{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 350px;
+    height: min-content;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.card{
+    scroll-snap-align: start;
+    width: 400px;
+    max-width: 500px;
+    min-width: 260px;
+    min-height: 400px;
+    height: 600px;
+    border: 2px black solid;
+    border-radius: 15px;
+    margin: 15px;
+    background: rgb(236, 236, 236);
+}
+
+.card img{
+    margin-bottom: -4px;
+    border-radius: 9px 9px 0 0;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card h3{
+    text-align: center;
+    background: black;
+    margin: 0;
+    padding: 10px 0;
+}
+.card h3:hover{
+    background: #575757;
+}
+.card p{
+    padding: 20px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: cornflowerblue;
+    height: 100%;
+}
+footer .redes{
+    gap: 20px;
+    display: flex;
+}
+footer h3 {
+    font-size: 1.8;
+    color: #f9fafc;
+    margin: 30px 0 0 0;
+}
+
+footer .contacto{
+    margin: 0 50px;
+}
+
+.redes .github{
+    margin-top: 8px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.6;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
