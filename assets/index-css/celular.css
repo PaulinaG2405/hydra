@@ -1,0 +1,42 @@
+.texto {
+    font-size: 1.5rem;
+}
+
+.populares h2{
+    font-size: 2rem;
+}
+.populares p{
+    font-size: 1.2rem;
+}
+.card{
+    height: 450px;
+}
+.contenedor-card {
+    gap: 20px;
+}
+.card {
+    width: 80%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.contenedor-card{
+    margin: 0 30px;
+    scroll-snap-type:none;
+}
+
+
+footer {
+    display: block;
+}
+.contacto{
+    display: flex;
+}
+
+.redes{
+    margin: 10px 50px;
+}
+
+.redes .githud{
+    margin: 0 30px;
+}
