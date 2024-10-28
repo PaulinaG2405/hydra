@@ -1,4 +1,6 @@
-
+//Variable para almacenar la compra 
+const compraHecha = localStorage.getItem('comprarBtn');
+const carrito = localStorage.getItem('carritoBtn');
 
 //Comprar 
 
