@@ -1,0 +1,35 @@
+.plantillas-content h2{
+    font-size: 2rem;
+}
+.main-text p{
+    font-size: 1.2rem;
+}
+.plantilla-1{
+    height: 450px;
+}
+.plantillas-group {
+    gap: 20px;
+}
+.plantilla-1 {
+    width: 80%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.plantillas-group{
+    margin: 0 30px;
+    scroll-snap-type:none;
+}
+
+
+footer {
+    display: block;
+}
+.footer-content{
+    display: flex;
+}
+
+.link{
+    margin: 10px 50px;
+}
+

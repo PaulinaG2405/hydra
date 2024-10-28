@@ -39,18 +39,18 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
-.menu .navbar ul li {
+.navbar ul li {
     position: relative;
     float: left;
 }
-.menu .navbar ul li  a {
+.navbar ul li  a {
     font-size: 18px;
     padding: 20px;
     color: #fffdff;
     display: block;
     font-weight: 600;
 }
-.menu .navbar ul li  a:hover{
+.navbar ul li  a:hover{
     color: #ce967b;
 }
 #menu{

@@ -1,0 +1,52 @@
+.plantillas {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.plantillas-content {
+    text-align: center;
+}
+
+.plantillas-content h2 {
+    font-size: 55px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+
+.plantillas-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.plantilla-1 {
+    padding: 0 25px;
+}
+.no-scroll-iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border: none;
+    overflow:hidden;
+}
+
+.plantilla-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(0, 0, 30);
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: rgb(36, 36, 121);
+}

@@ -7,7 +7,7 @@ IDUsuario int primary key ,
 nombre varchar  (20),
 Apeliido varchar (20),
 CorreoEletronico varchar (50),
-Contraseña varchar (50) ,
+Contraseï¿½a varchar (50) ,
 tipoDeUsuario_admistrador_comprador  varchar(40),
 FechaRegistro date ,
 );
@@ -20,6 +20,14 @@ FechaRegistro date ,
  Imagen varbinary(max),
  Archivo varbinary(max)
  );
+ create table soporte(
+ IDSoporte bigint primary key ,
+ IDUsuario int,
+ Asunto varchar (50),
+ descricion varchar (50),
+ EstadoSoporte varchar (50),
+ constraint FK_USU1 foreign key  (IDUsuario) references Usuario (IDUsuario)
+ )
  create table compra (
  IDcompra bigint Primary key,
  IDUsuario int ,
@@ -38,14 +46,6 @@ FechaRegistro date ,
  EstadoTransaccion varchar (20),
  constraint FK_com foreign key  (IDcompra) references compra (IDcompra)
  );
- create table soporte(
- IDSoporte bigint primary key ,
- IDUsuario int,
- Asunto varchar (50),
- descricion varchar (50),
- EstadoSoporte varchar (50),
- constraint FK_USU1 foreign key  (IDUsuario) references Usuario (IDUsuario)
- )
   create table notifiaciones (
   IDNotificaciones bigint primary key,
   IDUsuario int,

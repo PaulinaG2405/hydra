@@ -1,0 +1,44 @@
+.main-nav {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+}
+
+.main-nav a{
+    padding: 0;
+}
+.header-logo {
+    display: block;
+}
+
+.menu-toggle:checked + .menu-icon + .menu {
+    background: black;
+    display: flex;
+}
+.main-text {
+    font-size: 2rem;
+}
+
+.plantillas-group{
+    justify-content:start;
+}
+
+footer link {
+    gap: 0;
+}
+
+
+.footer-content{
+    margin: 0 10px;
+}
