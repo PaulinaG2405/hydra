@@ -1,42 +1,149 @@
-/**{
+/*HEADER*/
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
-body{
-    background-color: #c5c5c5;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+body {
+    background-color: #000000;
 }
-
-
-
-.plantillas-group{
+.header {
+    background-color: #000000;
+    height: 110px;
     display: flex;
-    gap: 10px;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
-}
-iframe {
-    border: none;
-    width: 300px;
-    height: 200px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
-    transition: transform 0.3s;
 }
 
-iframe:hover {
-    transform: scale(1.05);
+.header h1 {
+    font-size: 45px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin: 25px;
 }
+
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    margin-right: 20px;
+}
+.main-nav li {
+    float: left;
+    display: flex;
+}
+.main-nav li a{
+    color: #f9fafc;
+    padding: 14px 20px;
+}
+.main-nav li a:hover{
+    background-color: navy;
+}
+
+/*MAIN-CONTAINER*/
+.main-text{
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(..//plantillafonndo.png);
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    height: 500px;
+    min-height: 300px;
+    min-width: 300px;
+
+}
+p {
+    font-size: 35px;
+    color: #e9e9ea;
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: navy;
+}
+.comprarBtn {
+    background-color: #000000;
+    color: #fff;
+}
+
+.carritoBtn {
+    background-color: #000000;
+    color: #fff;
+}
+
+/*ESPACIOPLANTILLAS*/
+
+.plantillas {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.plantillas-content {
+    text-align: center;
+}
+
+.plantillas-content h2 {
+    font-size: 55px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+
+.plantillas-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.plantilla-1 {
+    padding: 0 25px;
+}
+.no-scroll-iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border: none;
+    overflow:hidden;
+}
+
+.plantilla-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(0, 0, 30);
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: rgb(36, 36, 121);
+}
+
+/*FOOTER*/
+
+
 .footer {
-    padding: 50px 0;
+    padding: 50px 25px;
     background-color: #000000;
     margin-bottom: 15px;
     
@@ -59,4 +166,4 @@ iframe:hover {
     display: block;
     margin-bottom: 15px;
 }
-    */
+
