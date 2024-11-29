@@ -1,15 +1,23 @@
-const plantilla = document.getElementsByClassName('plantilla-1');
-const carritoC = document.getElementsByClassName('carritoBtn');
+
 
 function AgregarAlCarrito(plantilla){
-    carritoC = JSON.parse(localStorage.getItem('carrito') || []);
-    carritoC.push(plantilla);
-    localStorage.setItem('carrito', JSON.stringify(carritoC));
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    carrito.push(plantilla);
+    localStorage.setItem('carrito', JSON.stringify(carrito));
     alert(plantilla + 'se ha añadido al carrito');
 }
 
 function CargarCarrito(){
-    carritoC = JSON.parse(localStorage.getItem('carrito')) || [];
-    let listaProdcutos = document.getElementById('carrito');
-    carrito.innerHtml
+    let carrito = JSON.parse(localStorage.getItem('carritoC')) || [];
+    let listaPlantillas = document.getElementById('lista-plantillas');
+    listaPlantillas.innerHTML = '';
+
+    carrito.forEach(plantilla => {
+        let divPlantilla = document.createElement('div');
+        divPlantilla.className = 'plantilla';
+        divPlantilla.innerHTML = `<h2>${plantilla}</h2>`;
+        listaPlantillas.appendChild(divPlantilla);
+    });
 }
+
+window.onload = CargarCarrito;
